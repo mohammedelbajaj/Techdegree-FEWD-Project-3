@@ -49,7 +49,7 @@ textarea {
     color: rgb(138, 130, 130);
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
-    transition: 2s;
+    transition: 1s;
 }
 
 select {
@@ -85,25 +85,14 @@ button {
 
 input:focus,
 select:focus,
-textarea:focus,
-button:focus {
+textarea:focus {
     outline: 2px solid rgb(2, 2, 46);
     background-color: #e6e6e6;
 }
-/* form {
-    > input[type="text"],
-    > input[type="email"],
-    > input[type="tel"] {
-            &:valid {
-            background: url(images/green-check-mark.jpg);
-            background-size: 20px;
-            background-repeat: no-repeat;
-            background-position: 20px 20px;
-        }
-    }
-} */
 
-
+button:focus {
+    outline: 2px solid rgb(2, 2, 46);
+}
 
 /* Header */
 header {
